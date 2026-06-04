@@ -1,6 +1,6 @@
 name: app_minimizer
 description: A plugin can minimize app.
-version: 1.0.0+4
+version: 1.0.1+6
 repository: https://github.com/yohom/app_minimizer
 
 environment:
@@ -23,4 +23,4 @@ flutter:
         package: dev.codecity.flutter_app_minimizer
         pluginClass: FlutterAppMinimizerPlugin
       ios:
-        pluginClass: FlutterAppMinimizerPlugin
+        pluginClass: SwiftFlutterAppMinimizerPlugin
