@@ -1,6 +1,7 @@
 import Flutter
 import UIKit
 
+@objc
 public class SwiftFlutterAppMinimizerPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
     let channel = FlutterMethodChannel(name: "flutter_app_minimizer", binaryMessenger: registrar.messenger())
