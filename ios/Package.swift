@@ -8,7 +8,7 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "app-minimizer",
+            name: "app_minimizer",
             type: .static,
             targets: ["app_minimizer"]
         )
